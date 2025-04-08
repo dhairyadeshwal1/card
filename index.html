@@ -1,10 +1,9 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>I'm Sorry & I Miss You</title>
-  <link href="" rel="stylesheet">
+  <title>I'm Sorry</title>
   <style>
     body {
       margin: 0;
@@ -18,20 +17,25 @@
       text-align: center;
       color: #fff;
       padding: 50px 20px;
-      animation: fadeIn 2s ease-in-out;
       background-color: rgba(0, 0, 0, 0.5);
       border-radius: 20px;
       margin: 30px;
+      animation: fadeIn 2s ease-in-out;
     }
-    h1 {
-      font-family: 'Great Vibes', cursive;
-      font-size: 3em;
-      margin-bottom: 0.5em;
+    .button {
+      background: #fff;
+      color: #e91e63;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: 0.3s;
+      margin: 0 10px;
     }
-    p {
-      font-size: 1.3em;
-      margin-bottom: 1em;
+    .button:hover {
+      background: #fce4ec;
     }
-    .question {
-      margin-top: 2em;
-    }
+    .popup {
+      position: fixed;
+      top: 50%;
